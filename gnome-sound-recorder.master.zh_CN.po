@@ -1,0 +1,450 @@
+# Chinese (China) translation for gnome-sound-recorder.
+# Copyright (C) 2013-2019 gnome-sound-recorder's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-sound-recorder package.
+# tuhaihe <1132321739qq@gmail.com>, 2013.
+# YunQiang Su <wzssyqa@gmail.com>, 2014.
+# liushuyu <liushuyu@aosc.xyz>, 2015.
+# Jeff Bai <jeffbai@aosc.xyz>, 2016.
+# Dingzhong Chen <wsxy162@gmail.com>, 2019.
+# Bin Li <binli@gnome.org>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-sound-recorder master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-sound-recorder/"
+"issues\n"
+"POT-Creation-Date: 2020-08-10 14:13+0000\n"
+"PO-Revision-Date: 2020-08-12 11:57+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: data/appdata/org.gnome.SoundRecorder.metainfo.xml.in.in:5
+#: data/org.gnome.SoundRecorder.desktop.in.in:4 data/ui/window.ui:28
+#: src/application.js:32
+msgid "Sound Recorder"
+msgstr "录音机"
+
+#: data/appdata/org.gnome.SoundRecorder.metainfo.xml.in.in:6
+msgid "A simple, modern sound recorder for GNOME"
+msgstr "用于 GNOME 的一个简单、现代的录音机"
+
+#: data/appdata/org.gnome.SoundRecorder.metainfo.xml.in.in:10
+msgid ""
+"Sound Recorder provides a simple and modern interface that provides a "
+"straight-forward way to record and play audio. It allows you to do basic "
+"editing, and create voice memos."
+msgstr ""
+"录音机提供了简单并且现代的交互界面以便用户直观地录制和播放音频。您可用它进行"
+"一些基本的音频编辑，还可以制作音频备忘录。"
+
+#: data/appdata/org.gnome.SoundRecorder.metainfo.xml.in.in:15
+msgid ""
+"Sound Recorder automatically handles the saving process so that you do not "
+"need to worry about accidentally discarding the previous recording."
+msgstr "录音机会自动进行保存，所以您不用担心不小心丢失以前的录音。"
+
+#: data/appdata/org.gnome.SoundRecorder.metainfo.xml.in.in:19
+msgid "Supported audio formats:"
+msgstr "支持的音频格式："
+
+#: data/appdata/org.gnome.SoundRecorder.metainfo.xml.in.in:21
+msgid "Ogg Vorbis, Opus, FLAC, MP3 and MOV"
+msgstr "Ogg Vorbis、Opus、FLAC、MP3 和 MOV"
+
+#: data/appdata/org.gnome.SoundRecorder.metainfo.xml.in.in:47
+msgid "The GNOME Project"
+msgstr "GNOME 项目"
+
+#: data/org.gnome.SoundRecorder.desktop.in.in:5
+msgid "Record sound via the microphone and play it back"
+msgstr "通过麦克风录制声音并播放"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.SoundRecorder.desktop.in.in:10
+msgid "Audio;Application;Record;"
+msgstr "Audio;Application;Record;音频;应用程序;录音;"
+
+#: data/org.gnome.SoundRecorder.gschema.xml.in:16
+msgid "Window size"
+msgstr "窗口大小"
+
+#: data/org.gnome.SoundRecorder.gschema.xml.in:17
+msgid "Window size (width and height)."
+msgstr "窗口大小（宽度与高度）。"
+
+#: data/org.gnome.SoundRecorder.gschema.xml.in:21
+msgid "Window position"
+msgstr "窗口位置"
+
+#: data/org.gnome.SoundRecorder.gschema.xml.in:22
+msgid "Window position (x and y)."
+msgstr "窗口位置（水平和竖直）。"
+
+#: data/org.gnome.SoundRecorder.gschema.xml.in:26
+msgid "Maps media types to audio encoder preset names."
+msgstr "将媒体类型对应到音频编码器预设名称。"
+
+#: data/org.gnome.SoundRecorder.gschema.xml.in:27
+msgid ""
+"Maps media types to audio encoder preset names. If there is no mapping set, "
+"the default encoder settings will be used."
+msgstr ""
+"将媒体类型对应到音频编码器的预设名称。如果某个媒体类型无对应，则将使用默认的"
+"编码器设置。"
+
+#: data/org.gnome.SoundRecorder.gschema.xml.in:31
+msgid "Available channels"
+msgstr "可用声道"
+
+#: data/org.gnome.SoundRecorder.gschema.xml.in:32
+msgid ""
+"Maps available channels. If there is not no mapping set, stereo channel will "
+"be used by default."
+msgstr "映射可用声道。如果未设置任何映射，将默认使用立体声声道。"
+
+#: data/ui/row.ui:188 data/ui/row.ui:500
+msgid "Export"
+msgstr "导出"
+
+#: data/ui/row.ui:214 data/ui/row.ui:496
+msgid "Rename"
+msgstr "重命名"
+
+#: data/ui/row.ui:269
+msgid "Save"
+msgstr "保存"
+
+#: data/ui/row.ui:307
+msgid "Delete"
+msgstr "删除"
+
+#: data/ui/row.ui:347
+msgid "Seek 10s Backward"
+msgstr "前进 10 秒"
+
+#: data/ui/row.ui:379
+msgid "Play"
+msgstr "播放"
+
+#: data/ui/row.ui:408
+msgid "Pause"
+msgstr "暂停"
+
+#: data/ui/row.ui:445
+msgid "Seek 10s Forward"
+msgstr "后退 10 秒"
+
+#: data/ui/window.ui:63
+msgid "Record"
+msgstr "录音"
+
+#: data/ui/window.ui:204
+#| msgid "Recording"
+msgid "Resume Recording"
+msgstr "继续录音"
+
+#: data/ui/window.ui:228
+msgid "Pause Recording"
+msgstr "暂停录音"
+
+#: data/ui/window.ui:260
+msgid "Stop Recording"
+msgstr "停止录音"
+
+#: data/ui/window.ui:289
+msgid "Cancel Recording"
+msgstr "取消录音"
+
+#: data/ui/window.ui:354
+msgid "Add Recordings"
+msgstr "添加录音"
+
+#: data/ui/window.ui:371
+msgid "Use the <b>Record</b> button to make sound recordings"
+msgstr "使用 <b>录音</b> 按钮创建录音"
+
+#: data/ui/window.ui:418
+msgid "Undo"
+msgstr "撤消"
+
+#: data/ui/window.ui:459
+msgid "Preferred Format"
+msgstr "首选格式"
+
+#: data/ui/window.ui:461
+msgid "Vorbis"
+msgstr "Vorbis"
+
+#: data/ui/window.ui:466
+msgid "Opus"
+msgstr "Opus"
+
+#: data/ui/window.ui:471
+msgid "FLAC"
+msgstr "FLAC"
+
+#: data/ui/window.ui:476
+msgid "MP3"
+msgstr "MP3"
+
+#: data/ui/window.ui:481
+msgid "M4A"
+msgstr "M4A"
+
+#: data/ui/window.ui:487
+msgid "Audio Channel"
+msgstr "音频通道"
+
+#: data/ui/window.ui:489
+msgid "Stereo"
+msgstr "立体声"
+
+#: data/ui/window.ui:494
+msgid "Mono"
+msgstr "单声道"
+
+#: data/ui/window.ui:502
+msgid "About Sound Recorder"
+msgstr "关于录音机"
+
+#: src/application.js:131
+msgid "Sound Recorder started"
+msgstr "录音机已启动"
+
+#. Translators: Replace "translator-credits" with your names, one name per line
+#: src/application.js:168
+msgid "translator-credits"
+msgstr ""
+"tuhaihe <1132321739qq@gmail.com>, 2013.\n"
+"YunQiang Su <wzssyqa@gmail.com>, 2014.\n"
+"Sphinx Jiang <yishanj13@gmail.com>, 2014.\n"
+"liushuyu <liushuyu_011@126.com>, 2015.\n"
+"Jeff Bai <jeffbai@aosc.xyz>, 2016.\n"
+"Merrick Zhang <anphorea@gmail.com>, 2020.\n"
+"Weiyi Xu <xuweiyi0923@gmail.com>, 2020."
+
+#: src/application.js:170
+msgid "A Sound Recording Application for GNOME"
+msgstr "GNOME 平台的一款声音录制程序"
+
+#. Translators: ""Recording %d"" is the default name assigned to a file created
+#. by the application (for example, "Recording 1").
+#: src/recorder.js:109
+#, javascript-format
+msgid "Recording %d"
+msgstr "录音 %d"
+
+#. Necessary code to move old recordings into the new location for few releases
+#. FIXME: Remove by 3.40/3.42
+#: src/recordingList.js:41
+msgid "Recordings"
+msgstr "录音"
+
+#. Translators: ""%s (Old)"" is the new name assigned to a file moved from
+#. the old recordings location
+#: src/recordingList.js:57
+#, javascript-format
+msgid "%s (Old)"
+msgstr "%s (Old)"
+
+#: src/row.js:56
+msgid "Export Recording"
+msgstr "导出录音"
+
+#: src/row.js:56
+msgid "_Export"
+msgstr "导出(_E)"
+
+#: src/row.js:56
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: src/utils.js:45
+msgid "Yesterday"
+msgstr "昨天"
+
+#: src/utils.js:47
+#, javascript-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d 天前"
+
+#: src/utils.js:49
+msgid "Last week"
+msgstr "上周"
+
+#: src/utils.js:51
+#, javascript-format
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
+msgstr[0] "%d 周前"
+
+#: src/utils.js:53
+msgid "Last month"
+msgstr "上个月"
+
+#: src/utils.js:55
+#, javascript-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d 个月前"
+
+#: src/utils.js:57
+msgid "Last year"
+msgstr "去年"
+
+#: src/utils.js:59
+#, javascript-format
+msgid "%d year ago"
+msgid_plural "%d years ago"
+msgstr[0] "%d 年前"
+
+#: src/window.js:70
+#, javascript-format
+msgid "\"%s\" deleted"
+msgstr "\"%s\"已删除"
+
+#~ msgid "Microphone volume level"
+#~ msgstr "话筒音量级别"
+
+#~ msgid "Microphone volume level."
+#~ msgstr "话筒音量级别。"
+
+#~ msgid "Speaker volume level"
+#~ msgstr "扬声器音量级别"
+
+#~ msgid "Speaker volume level."
+#~ msgstr "扬声器音量级别。"
+
+#~ msgid "Done"
+#~ msgstr "完成"
+
+#~ msgid "Preferences"
+#~ msgstr "首选项"
+
+#~ msgid "Default mode"
+#~ msgstr "默认模式"
+
+#~ msgid "Volume"
+#~ msgstr "音量"
+
+#~ msgid "Microphone"
+#~ msgstr "麦克风"
+
+#~ msgid "Unable to create Recordings directory."
+#~ msgstr "无法创建录音目录。"
+
+#~ msgid "Please install the GStreamer 1.0 PulseAudio plugin."
+#~ msgstr "请安装 GStreamer 1.0 PulseAudio 插件。"
+
+#~ msgid "Your audio capture settings are invalid."
+#~ msgstr "您的音频捕捉设置无效。"
+
+#~ msgid "Not all elements could be created."
+#~ msgstr "无法创建部分元素。"
+
+#~ msgid "Not all of the elements were linked."
+#~ msgstr "无法链接部分元素。"
+
+#~ msgid ""
+#~ "Unable to set the pipeline \n"
+#~ " to the recording state."
+#~ msgstr ""
+#~ "无法将流水线\n"
+#~ "设为录音状态。"
+
+#~ msgid "Recording from %F %A at %T"
+#~ msgstr "%F %A %T 的录音"
+
+#~| msgid "SoundRecorder"
+#~ msgid "org.gnome.SoundRecorder"
+#~ msgstr "org.gnome.SoundRecorder"
+
+#~ msgid "SoundRecorder"
+#~ msgstr "录音机"
+
+#~ msgid "Info"
+#~ msgstr "信息"
+
+#~ msgctxt "File Name"
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#~ msgid "Source"
+#~ msgstr "来源"
+
+#~ msgid "Date Modified"
+#~ msgstr "修改日期"
+
+#~ msgid "Date Created"
+#~ msgstr "创建日期"
+
+#~ msgctxt "Media Type"
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgid "Recording…"
+#~ msgstr "正在录音……"
+
+#~ msgid "%d Recorded Sound"
+#~ msgid_plural "%d Recorded Sounds"
+#~ msgstr[0] "%d 段录音"
+
+#~ msgid "No Recorded Sounds"
+#~ msgstr "无录音"
+
+#~ msgid "MOV"
+#~ msgstr "MOV"
+
+#~ msgid "Load More"
+#~ msgstr "加载更多"
+
+#~ msgid "Unable to play recording"
+#~ msgstr "无法播放录音"
+
+#~ msgid "No Media Profile was set."
+#~ msgstr "未设置媒体配置文件。"
+
+#~ msgid "Clip %d"
+#~ msgstr "片段 %d"
+
+#~ msgid "About"
+#~ msgstr "关于"
+
+#~ msgid "Quit"
+#~ msgstr "退出"
+
+#~ msgid "%Y-%m-%d %H:%M:%S"
+#~ msgstr "%Y-%m-%d %H:%M:%S"
+
+#~ msgid "Preferred media type for encoding audio when recording"
+#~ msgstr "录音时音频编码首选的媒体类型"
+
+#~ msgid ""
+#~ "Preferred media type for encoding audio when recording. 'audio/x-vorbis' "
+#~ "for Ogg Vorbis, or 'audio/mpeg' for MP3, for example. This is not a MIME "
+#~ "type."
+#~ msgstr ""
+#~ "录音时音频编码首选的媒体类型。比如，“audio/x-vorbis”代表 Ogg Vorbis，"
+#~ "或“audio/mpeg”代表 MP3。这不是 MIME 类型。"
+
+#~ msgid "Finish"
+#~ msgstr "完成"
+
+#~ msgid "Unable to set the playbin to the playing state."
+#~ msgstr "无法将 playbin 设为播放状态。"
+
+#~ msgid "Audio from %Y-%m-%d %H:%M:%S"
+#~ msgstr "从 %Y-%m-%d %H:%M:%S 开始的录音"
+
+#~ msgid "Error: "
+#~ msgstr "错误："
